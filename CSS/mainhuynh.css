@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Poppins:wght@200;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+	background: rgba(35,35,35,1.00);
+}
+.header{
+	width: 100%;
+	height: 60px;
+/*	position: absolute;*/
+	background: #111111;
+	z-index: 1000;
+}
+.bg{
+	height: 900px;
+	background-image: url("../IMG/final 1.jpg");
+	background-size: cover;
+}
+.logo a{
+	padding: 10px 0 0 0;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.navi ul{
+	list-style: none;
+}
+.navi li{
+	margin: 0 18px;
+}
+.navi li a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.navi li a:hover{
+	opacity: .8;
+}
+.header-text h3{
+	color: white;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.header-text a{
+	color: white;
+	font-size: 15px;
+	margin-top: 35px;
+}
+.feature-top img{
+	width: 600px;
+	padding: 350px 0 0 0;
+}
+.box-1{
+	height: 614px;
+	background: gray;
+}
+.box-3{
+	height: 50px;
+	background: #292929;
+	box-shadow: 8px 5px 16px 0 rgb(0 0 0 / 37%);
+}
+.box-3 h3{
+	font-size: 18px;
+	color: #E0E0E0;
+	padding: 10px 0 0 10px;
+}
+.box-4{
+	height: 600px;
+	background: gray;
+}
+.box-6{
+	height: 500px;
+	background: gray;
+}
+.feature-4 img{
+	width: 100%;
+	height: 100%;
+}
+.feature-5 img{
+	width: 100%;
+	height: 100%;
+}
+.feature-6{
+	overflow: hidden;
+}
+.feature-6 img{
+	width: 100%;
+	height: 100%;
+}
+.feature-1{
+	overflow: hidden;
+	height: 614px;
+}
+.content{
+	color: #E0E0E0;
+}
+.content h2{
+	font-size: 20px;
+	line-height: 125%;
+}
+span{
+	font-size: 15px;
+	line-height: 150%;
+}
+.text-col-6-2{color: #E0E0E0;
+	line-height: 150%;
+	margin-bottom: 500px;
+}
+.text-sec-6{
+	color: #E0E0E0;
+}
+.footer{
+	height: 300px;
+	background: #252525;
+}
+.footer a{
+	color: white;
+}
+.text-2{
+	color: white;
+	opacity: 0.8;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.text a{
+	padding: 10px 0 0 0;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	opacity: 0.5;
+}
+.text-3 h2{
+	color: aliceblue;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin: 100px 500px;
+}
